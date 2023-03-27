@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li,
+ol{
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+html,body{
+    background-color: #E5E5E5;
+    font-size: 62.5%;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+header{
+    padding: 0rem 4rem;
+}
+
+main{
+    width: 100%;
+}
+
+.navigation__list{
+    display: flex;
+    width: 44.3rem;
+    justify-content: space-between;
+}
+
+.offer{
+    padding-top: 3rem;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shelter__logo{
+    width: 18.6rem;
+    display: flex;
+    flex-direction: column;
+}
+.shelter__site-name{
+    font-size: 3.2rem;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    padding-bottom: .5rem;
+}
+
+.shelter__site-description{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.offer{
+    width: 100%;
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #211F20;
+}
+
+.navigation__link{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 160%;
+    color: #CDCDCD;
+}
+
+.shelter__offer{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 9rem;
+}
+
+.shelter__offer_text{
+    width: 54.2rem;
+    padding-left: 4rem;
+    padding-top: 16.3rem;
+}
+
+.shelter__offer_text h2{
+    width: 31rem;
+    font-weight: 400;
+    font-size: 4.4rem;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 4.2rem;
+}
+
+.shelter__offer_text span{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #CDCDCD;
+    margin-bottom: 4.2rem;
+}
+
+.shelter__offer_button{
+    width: 20.7rem;
+    height: 5.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F1CDB3;
+    border-radius: 10rem;
+}
+
+.shelter__offer_button-link{
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border-radius: 10rem;
+}
+
+.shelter__offer_picture{
+    width: 69.8rem;
+    height: 72.8rem;
+    padding-right: 4rem;
+}
+
+.shelter__offer_picture img{
+    width: 100%;
+    height: 100%;
+}
+.shelter__about{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.about__wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    margin: 8rem 0rem 10rem 0rem;
+    width: 100%;
+}
+
+.about__info h3{
+    width: 37rem;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-bottom: 2.5rem;
+}
+.about__info{
+    width: 43rem;
+}
+.about__info_text{
+    width: 43rem;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    display: flex;
+    align-items: center;
+    color: #4C4C4C;
+    margin-bottom: 2.5rem;
+}
+
+.shelter__friends{
+    width: 100%;
+    background-color: #F6F6F6;
+}
+
+.friends__wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.friends__title{
+    width: 31.8rem;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
